@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghad Alshinnawi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header_logo">
+            <img src="images/logo.png" alt="Logo">
+        </a>
+        <input type="checkbox" id="menu_check" hidden>
+        <label for="menu_check" class="menu_toggle">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero_content card">
+            <p class="hero_subtitle">Hello, I'm</p>
+            <h1>Raghad Alshinnawi</h1>
+            <h3>Junior Front-End Developer</h3>
+            <p class="hero_text">
+                Passionate Front-End Developer in training, focused on building clean, responsive, and pixel-perfect websites using modern web technologies.
+            </p>
+            <div class="hero_btns">
+                <a href="#projects" class="btn btn_primary">
+                    <span>My Projects</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="cv.pdf" download class="btn btn_outline">
+                    <i class="fa-solid fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+        <div class="hero_image">
+            <img src="images/hero.png" alt="Raghad Alshinnawi">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="section_heading">
+            <h2>About Me</h2>
+            <p>Get to Know Me Better</p>
+        </div>
+        <div class="about_content card">
+            <div class="about_image">
+                <img src="images/hero.png" alt="About Me">
+            </div>
+            <div class="about_text">
+                <h3>Who Am I</h3>
+                <p>Artificial Intelligence Graduate from Zarqa University with a passion for web development and user experience design.</p>
+                <div class="about_info">
+                    <div class="info_badge">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div>
+                            <strong>Education</strong>
+                            <span>Artificial Intelligence & Data Science</span>
+                        </div>
+                    </div>
+                    <div class="info_badge">
+                        <i class="fa-solid fa-code"></i>
+                        <div>
+                            <strong>Core Skills</strong>
+                            <span>HTML5, CSS3, Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="section_heading">
+            <h2>My Projects</h2>
+            <p>Some of my recent work</p>
+        </div>
+        <div class="projects_grid">                  
+                    <div class="project_card card">
+                        <div class="project_img">
+                            <img src="images/loading.jpg" alt="Project 2">
+                        </div>
+                <div class="project_info">
+                    <h3>Coming Soon</h3>
+                    <p>A modern glassmorphism portfolio site showcasing skills and personal projects.</p>
+                    <div class="project_tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                    </div>
+                    <a href="#" class="btn_small">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <div class="section_heading">
+            <h2>Skills & Tools</h2>
+            <p>Technologies I work with</p>
+        </div>
+        <div class="skills_grid card" style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; text-align: center;">
+            <div class="skill_item"><i class="fa-brands fa-html5" style="font-size: 30px;"></i><p>HTML5</p></div>
+            <div class="skill_item"><i class="fa-brands fa-css3-alt" style="font-size: 30px;"></i><p>CSS3</p></div>
+            <div class="skill_item"><i class="fa-brands fa-git-alt" style="font-size: 30px;"></i><p>Git & GitHub</p></div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="section_heading">
+            <h2>Contact Me</h2>
+            <p>Let's work together</p>
+        </div>
+        <div class="contact_content">
+            <form class="contact_form card">
+                <div class="form_group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form_group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form_group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn_primary">
+                    <span>Send Message</span>
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+            <div class="contact_info ">
+                <div class="info_item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <strong>Email</strong>
+                        <a href="mailto:raghadahmad1312@gmail.com">raghadahmad1312@gmail.com</a>
+                    </div>
+                </div>
+                <div class="info_item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <strong>Phone</strong>
+                        <a href="tel:+962775742349">+962 77 574 2349</a>
+                    </div>
+                </div>
+                <div class="info_item">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <div>
+                        <strong>LinkedIn</strong>
+                        <a href="https://linkedin.com" target="_blank">raghadshinnawi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_social">
+            <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/raghadshinnawi" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:raghadahmad1312@gmail.com" aria-label="Email">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+        </div>
+        <p>&copy; 2026 Raghad Alshinnawi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
