@@ -60,21 +60,7 @@ body {
     color: #0f172a;
 }
 
-.navbar a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -4px;
-    left: 0;
-    background-color: #4f46e5;
-    transition: width 0.3s ease;
-    border-radius: 2px;
-}
 
-.navbar a:hover::after {
-    width: 100%;
-}
 
 .card {
     background: rgba(255, 255, 255, 0.45);
@@ -244,19 +230,7 @@ body {
     justify-content: center;
 }
 
-.hero_image::before,
-.about_image::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    box-shadow: 0 10px 25px rgba(99, 102, 241, 0.15);
-}
+
 
 .hero_image img,
 .about_image img {
